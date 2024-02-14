@@ -2,8 +2,8 @@
 #  FSCL Wrap File. #
 # ================ #
 [wrap-git]
-url = https://github.com/fossil-lib/fscl-xcore-c.git
+url = https://github.com/fossil-lib/fscl-xtest-c.git
 revision = main
- 
+
 [provide]
-fscl-xcore-c = fscl_xcore_c_dep
+fscl-xtest-c = fscl_xtest_c_dep
