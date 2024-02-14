@@ -1,14 +1,14 @@
-# Fossil Learning Platform (FLLP) Codelab Template
+# Fossil Learning Platform (FLLP) Codelab for Fossil Logic Xtest - C
 
 ## Abstract:
 
-Welcome to the Fossil Learning Platform (FLLP) Codelab Template! This template is designed to help you create interactive and educational codelabs that utilize the Fossil Logic Libraries (FLL) within the Fossil Learning Platform. These codelabs are built using the Meson build system, making it easy for learners to set up and follow along.
+Welcome to the Fossil Learning Platform (FLLP) Codelab How to Xtest! Fossil XTest is your go-to library for robust and comprehensive testing solutions. Elevate the quality of your software by incorporating advanced testing methodologies, ensuring that your code not only meets but exceeds industry standards. With Fossil XTest, testing becomes an integral part of your development process, providing confidence in the reliability and functionality of your applications.
 
 ## Codelab Overview:
 
-- **Title:** Creating Dynamic Content with Fossil Logic Libraries in FLLP
+- **Title:** How to test your code with Fossil Logic Libraries Xtest in FLLP Codelab
 - **Objective:** Learn how to integrate Fossil Logic Libraries into the Fossil Learning Platform for dynamic and engaging educational content.
-- **Duration:** Approximately 30 minutes
+- **Duration:** Approximately at your phase
 
 ## Prerequisites:
 
