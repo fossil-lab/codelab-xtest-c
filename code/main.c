@@ -89,10 +89,7 @@ XTEST_CASE(challenge_5_advanced_analysis_2) {
     XTEST_NOT_IMPLEMENTED();
 }
 
-// main program is where we start all commands
-int main(int argc, char **argv) {
-    XTEST_CREATE(argc, argv);
-
+XTEST_DEFINE_POOL(codelab_solve) {
     // Run the test cases using XTEST_RUN_UNIT
     XTEST_RUN_UNIT(challenge_1_test_case_1);
     XTEST_RUN_UNIT(challenge_1_test_case_2);
@@ -104,6 +101,14 @@ int main(int argc, char **argv) {
     XTEST_RUN_UNIT(challenge_4_benchmark_2);
     XTEST_RUN_UNIT(challenge_5_advanced_analysis_1);
     XTEST_RUN_UNIT(challenge_5_advanced_analysis_2);
+}
+
+// main program is where we start all commands
+int main(int argc, char **argv) {
+    XTEST_CREATE(argc, argv);
+
+    // Challange test pool for this codelab
+    XTEST_IMPORT_POOL(codelab_solve);
 
     return XTEST_ERASE();
 } // end of func
