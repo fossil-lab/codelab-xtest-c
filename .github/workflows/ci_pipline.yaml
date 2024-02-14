@@ -1,4 +1,4 @@
-name: Host System Tester
+name: CI Pipeline
 
 on:
   push:
